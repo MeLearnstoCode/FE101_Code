@@ -1,0 +1,44 @@
+section {
+	padding-top: 50px;
+	margin-top: -50px;
+	min-height: 100vh;
+	border: 1px solid black;
+}
+
+#home {
+	margin-top: 0px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: pink;
+	width: 100%;
+	text-align: center;
+
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.current {
+	font-weight: bold;
+}
+
+.menu-icon {
+	float: right;
+	display: none;
+}
+
+@media (max-width: 768px){
+  nav ul {
+    display: none;
+  }
+
+  .menu-icon {
+  	display: block;
+  }
+}
