@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+section {
+	background-attachment: fixed;
+	height: 450px;
+}
+
+#summer {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/summer.jpg);
+}
+
+#autumn {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/autumn.jpg);
+}
+
+#winter {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+#spring {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/spring.jpg);
+}
+
+#rocket {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}

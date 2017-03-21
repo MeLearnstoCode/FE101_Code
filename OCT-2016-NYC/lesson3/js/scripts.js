@@ -1,0 +1,2 @@
+// Add parallax
+$.stellar();

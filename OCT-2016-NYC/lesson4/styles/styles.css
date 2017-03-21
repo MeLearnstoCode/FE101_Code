@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	margin-top: 100px;
+}
+
+nav {
+	background: blue;
+	height: 80px;
+	width: 100%;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	text-align: center;
+
+	z-index: 1;
+}
+
+nav li {
+	display: inline-block;
+	padding: 20px;
+}
+
+#dialog {
+	width: 200px;
+	height: 200px;
+	background: green;
+	position: relative;
+	/*position: fixed;
+	top: 40%;
+	left: 40%;*/
+}
+
+#dialog-close {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+}
+
+#box {
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+
+#lorem {
+	position: absolute;
+	top: 200px;
+}
+
+.image {
+	width: 350px;
+	height: 350px;
+	border: 1px solid black;
+	background-image: url(http://placehold.it/150x150);
+	background-size: cover;
+	display: inline-block;
+}
+
+#dog {
+	background-image: url(http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg);
+}
+
+#cat {
+	background-image: url(https://pixabay.com/static/uploads/photo/2014/03/29/09/17/cat-300572_960_720.jpg);
+}
+
+@media (min-width: 768px) {
+	.image {
+		width: 500px;
+		height: 500px;
+		background-image: url(http://placehold.it/500x500);
+
+	}
+}
