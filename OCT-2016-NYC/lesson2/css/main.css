@@ -1,0 +1,60 @@
+nav {
+	text-align: center;
+	background-color: pink;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 20px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 30px;
+}
+
+section {
+	height: 600px;
+	padding: 56px 20px;
+}
+
+.menu-icon {
+	display: none;
+
+	position: fixed;
+	top: 0;
+	right: 0;
+
+	font-size: 32px;
+}
+
+@media (max-width: 768px) {
+	/* Mobile Styles Go Here */
+
+	nav {
+		display: none;
+		position: fixed;
+	}
+
+	nav ul {
+		padding: 0;
+	}
+
+	nav li {
+		display: block;
+		padding: 10px 0;
+	}
+
+	.menu-icon {
+		display: block;
+	}
+
+	section {
+		padding-top: 144px;
+	}
+}

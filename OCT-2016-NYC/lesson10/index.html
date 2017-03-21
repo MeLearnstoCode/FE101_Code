@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<style>
+		#pokemon-result {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<form id="pokemon-form">
+		<p>What's your favorite Pokémon?</p>
+		<input id="pokemon-txt" type="text">
+		<button id="pokemon-btn">Go!</button>
+		<div id="pokemon-result">
+			Your favorite Pokémon is <span id="pokemon-out"></span> and it has <span id="pokemon-letters-out"></span> letters.
+		</div>
+	</form>
+
+	<div>
+		<p>Do you want to know your fortune?</p>
+		<label for="numChildren-in">Num Children:</label>
+		<input id="numChildren-in" type="text">
+		<br>
+		<label for="partnerName-in">Partner Name:</label>
+		<input id="partnerName-in" type="text">
+		<br>
+		<label for="geoLocation-in">Location:</label>
+		<input id="geoLocation-in" type="text">
+		<br>
+		<label for="jobTitle-in">Job Title:</label>
+		<input id="jobTitle-in" type="text">
+
+		<button id="fortune-btn">Tell Me My Fortune!</button>
+
+		<div id="fortune-out"></div>
+	</div>
+
+	<div>
+		<input id="birthYear-in" type="text">
+		<button id="age-btn">How old am I?</button>
+		<div id="age-out"></div>
+	</div>
+
+	<script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
