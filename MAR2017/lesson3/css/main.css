@@ -1,0 +1,159 @@
+.box {
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+}
+
+#box1 {
+	transform: scale(4, 2);
+}
+
+#box2 {
+	/*transform: translate(40px, 50px);*/
+	transform: translateX(-100px);
+}
+
+#box3 {
+	transform: rotate(30deg);
+}
+
+#box4 {
+	transform: skewX(30deg);
+}
+
+#box5 {
+	transform: translateX(200px) rotate(60deg);
+}
+
+#box6 {
+	animation: backAndForth 1s 2 alternate;
+
+/*	animation-name: backAndForth;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;*/
+}
+
+#box7 {
+	animation: wobble 3s infinite alternate;
+}
+
+#box9 {
+	transition: all 1s;
+	background-color: green;
+	width: 50px;
+}
+
+#box9:hover {
+	background-color: yellow;
+	width: 200px;
+}
+
+#box10 {
+	transition: all 1s;
+}
+
+.selected {
+	background-color: green;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+a {
+	font-size: 1.2em;
+	transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+/*
+	transition-property: all;
+	transition-duration: 1s;
+	transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);*/
+}
+
+a:hover {
+	box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+@keyframes backAndForth {
+	0% {
+		transform: translateX(0px);
+	}
+	100% {
+		transform: translateX(300px);
+	}
+}
+
+
+/*.loader:before {
+	content: 'X';
+	color: red;
+}
+*/
+
+.loader,
+.loader:before,
+.loader:after {
+	border-radius: 50%;
+}
+
+.loader {
+	color: black;
+	font-size: 11px;
+	text-indent: -99999em;
+	position: relative;
+	width: 10em;
+	height: 10em;
+  	box-shadow: inset 0 0 0 1em;
+  	transform: translateZ(0);
+}
+
+.loader:before,
+.loader:after {
+	position: absolute;
+	content: '';
+	width: 5.2em;
+	height: 10.2em;
+	background: white;
+}
+
+.loader:before {
+	border-radius: 10.2em 0 0 10.2em;
+	top: -0.1em;
+	left: -0.1em;
+	transform-origin: 5.2em 5.1em;
+	animation: load2 2s infinite ease 1.5s;
+}
+
+.loader:after {
+	 border-radius: 0 10.2em 10.2em 0;
+	 top: -0.1em;
+	 left: 5.1em;
+	 transform-origin: 0 5.1em;
+	 animation: load2 2s infinite ease;
+}
+
+@keyframes load2 {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
