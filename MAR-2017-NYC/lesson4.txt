@@ -1,0 +1,16 @@
+ 0) cd to the project folder
+
+ 1) Github.com -> New Repository
+
+ 2) Name it the same as your folder
+
+ 3) Copy the 'create a new repo' commands
+
+
+
+echo "# lesson3c" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/nicolethenerd/lesson3c.git
+git push -u origin master
