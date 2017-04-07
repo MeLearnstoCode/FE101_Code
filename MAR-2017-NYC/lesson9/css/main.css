@@ -1,0 +1,16 @@
+.meme {
+	position: relative;
+}
+
+.placeholder {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	margin: 0;
+	font-size: 72px;
+	font-family: Impact;
+	color: white;
+	letter-spacing: 2px;
+	text-shadow: 0 0 8px black;
+	text-transform: uppercase;
+}
