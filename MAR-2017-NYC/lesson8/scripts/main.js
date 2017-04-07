@@ -43,15 +43,7 @@ $(document).ready(function() {
 	var banner = $('#banner');
 	banner.css('color', 'red').html('Welcome!').show();
 
-	$('a').click(function(event) {
-		event.preventDefault();
-
-		$(this).animate({
-			'font-size': '72px',
-		}, 3000).delay(1000).animate({
-			'font-size': '16px',
-		}, 3000);
-	});
+	$
 
 
 
