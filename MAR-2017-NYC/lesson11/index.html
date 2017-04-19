@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>One Page Website</title>
+
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+
+		<form id="fortune-form">
+			<div>
+				<label for="numChildren">Number of children</label>
+				<input id="numChildren" type="text" placeholder="Number of children">
+			</div>
+			<div>
+				<label for="partnerName">Partner Name</label>
+				<input id="partnerName" type="text" placeholder="Partner Name">
+			</div>
+			<div>
+				<label for="geoLocation">Geographic Location</label>
+				<input id="geoLocation" type="text" placeholder="Geographic location">
+			</div>
+			<div>
+				<label for="jobTitle">Job Title</label>
+				<input id="jobTitle" type="text" placeholder="Job Title">
+			</div>	
+			<button id="fortune-btn">Tell Me My Fortune!</button>
+			<div id="fortune">
+				<!-- Fortune will go here -->
+			</div>
+		</form>
+
+		<form id="age-form">
+			<input type="text" id="birthYear">
+			<button id="age-btn">How old am I?</button>
+			<div id="age">
+				
+			</div>
+		</form>
+
+		<div>
+			<label for="score">Score</label>
+			<input id="score" type="text">
+			<button id="grade-btn">Grade Me!</button>
+			<div id="grade">
+				
+			</div>
+		</div>
+
+		<form id="cash-register">
+			<ul id="itemList">
+				<!-- Items will go here -->
+			</ul>
+			<div>Total: $<span id="total"></span></div>
+			
+			<input id="item" type="text" placeholder="Item">
+			<input id="cost" type="number" placeholder="Cost" step="any">
+
+			<button id="add-btn">Add Item</button>
+		</form>
+
+		<!-- jQuery first -->
+		<script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+  		<!-- Any other libraries/plugins -->
+
+		<!-- Your own code -->
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
