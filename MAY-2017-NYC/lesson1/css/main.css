@@ -58,10 +58,14 @@ nav li a {
 	cursor: pointer;
 }
 
-.row div {
+#about .row div {
 	border: 1px solid black;
 	/* TODO remove this later */
 	height: 200px;
+}
+
+.img-responsive {
+	width: 100%;
 }
 
 /* Mobile-only styles here */
