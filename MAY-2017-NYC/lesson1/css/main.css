@@ -64,6 +64,13 @@ nav li a {
 	height: 200px;
 }
 
+#resume .row div {
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .img-responsive {
 	width: 100%;
 }
