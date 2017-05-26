@@ -1,0 +1,118 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin: 10px;
+}
+
+.box2 {
+  transition: all 6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box2:hover {
+  width: 400px;
+  background: blue;
+}
+
+.box3 {
+  transition: all 6s;
+}
+
+.box3:hover {
+  width: 400px;
+  background: green;
+}
+
+.box4 {
+  transform: scale(.5, .33);
+}
+
+.box5 {
+  transform: translate(25px, 50px);
+}
+
+.box6 {
+  transform: rotate(30deg);
+}
+
+.box7 {
+  transform: rotateX(0deg);
+  transition: 1s all;
+}
+
+.box7:hover {
+  transform: rotateX(180deg);
+}
+
+.box8 {
+  transition: all 1s;
+}
+
+.box8:hover {
+  transform: skewX(40deg);
+}
+
+.box9 {
+  animation: tilt 5s infinite alternate;
+}
+
+@keyframes tilt {
+  0% {
+    transform: skewX(-40deg);
+  }
+  100% {
+    transform: skewX(40deg);
+  }
+}
+
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  color: black;
+  position: relative;
+  box-shadow: inset 0 0 0 10px;
+}
+
+.loader:before,
+.loader:after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  width: 52px;
+  height: 104px;
+}
+
+.loader:before {
+  border-radius: 0 100px 100px 0;
+  left: 50px;
+  transform-origin: 0 52px;
+  animation: load 2s infinite;
+}
+
+.loader:after {
+  border-radius: 100px 0 0 100px;
+  transform-origin: 52px 52px;
+  animation: load 2s infinite 1s;
+}
+
+@keyframes load {
+  to {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
