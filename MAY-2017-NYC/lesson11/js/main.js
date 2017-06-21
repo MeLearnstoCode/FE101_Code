@@ -1,3 +1,5 @@
+// https://codepen.io/nicolethenerd/pen/JJNOYo?editors=1010
+
 // When user clicks 'Go', put text in meme
 $('#meme-btn').click(function() {
 	// Get the text from the input
