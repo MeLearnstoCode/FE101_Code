@@ -1,0 +1,19 @@
+#cat-img {
+	width: 100%;
+}
+
+#img-text {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: white;
+	font-size: 72px;
+	font-family: Impact;
+	text-transform: uppercase;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#meme {
+	position: relative;
+	width: 500px;
+}
