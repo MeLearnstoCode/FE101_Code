@@ -1,0 +1,18 @@
+cd - change directory
+pwd - path to working directory
+      (where am i?)
+mkdir - make directory
+ls - list files 
+     (what's in the current directory?)
+touch - make a new file
+.. - up a directory
+
+
+
+
+template
+   index.html
+   css/
+   	  main.css
+   js/
+   	  main.js
