@@ -1,0 +1,54 @@
+@import 'nav';
+
+$color1: pink;
+$boxWidth: 50px;
+$standardBorder: 1px solid black;
+$baseFontSize: 12px;
+
+body {
+  background: $color1;
+}
+
+p {
+  background: white;
+  color: $color1;
+  border: $standardBorder;
+  font-size: 2*$baseFontSize;
+}
+
+.box {
+  width: $boxWidth;
+  height: $boxWidth;
+  background: white;
+  border: $standardBorder;
+}
+
+.rectangle {
+  width: 2*$boxWidth;
+  height: $boxWidth;
+  background: white;
+  border: $standardBorder;
+}
+
+@mixin square($size) {
+  width: $size;
+  height: $size;
+}
+
+@mixin black($opacity) {
+  background: rgba(0, 0, 0, $opacity);
+}
+
+@mixin white($opacity) {
+  background: rgba(255, 255, 255, $opacity);
+}
+
+.box2 {
+  @include square(50px);
+  @include black(.4);
+}
+
+
+
+
+
