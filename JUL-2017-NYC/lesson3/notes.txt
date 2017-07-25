@@ -1,0 +1,14 @@
+Run inside your project folder:
+
+git init
+make this a git repo
+Source Tree: drag in the project folder
+
+git add -A
+add all your changes to "staging" (pre-commit)
+
+git commit -m "message"
+save a checkpoint
+
+git push
+send it to Github!
