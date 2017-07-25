@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	margin-top: 36px;
+	margin-top: 40px;
 }
 
 nav {
@@ -14,6 +14,8 @@ nav {
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 1;
+	min-height: 40px;
 }
 
 nav li {
@@ -24,6 +26,20 @@ nav li {
 
 nav a {
 	text-decoration: none;
+	transition: all 1s;
+}
+
+nav a:hover,
+nav a:focus {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+}
+
+.current a {
+	color: purple;
 }
 
 #box {
@@ -31,6 +47,10 @@ nav a {
 	width: 400px;
 	height: 400px;
 	padding: 20px;
+
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
+	transition: all 2s;
 }
 
 h1 {
@@ -51,10 +71,16 @@ section {
 	background: transparent;
 	font-size: 22px;
 	display: none;
+	z-index: 2;
+}
+
+div .img-responsive {
+	/*border: 1px solid black;*/
+	margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
-	nav {
+	nav ul {
 		display: none;
 	}
 
@@ -67,11 +93,11 @@ section {
 	}
 
 	body {
-		margin-top: 144px;
+		margin-top: 210px;
 	}
 
 	section {
-		margin-top: -144px;
-	    padding-top: 144px;
+		margin-top: -210px;
+	    padding-top: 210px;
 	}
 }

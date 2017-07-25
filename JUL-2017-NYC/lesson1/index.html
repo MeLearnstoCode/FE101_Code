@@ -5,10 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Lesson 1</title>
 
-		<!-- CSS Reset -->
-		<link rel="stylesheet" href="css/reset.css">
+		<!-- CSS Reset - Don't use with Bootstrap -->
+		<!-- <link rel="stylesheet" href="css/reset.css"> -->
 		<!-- Any CSS libraries -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
 		<!-- Your CSS -->
 		<link rel="stylesheet" href="css/main.css">
 	</head>
@@ -19,6 +21,7 @@
 				<li><a href="#about">About</a></li>
 				<li><a href="#resume">Resume</a></li>
 				<li><a href="#projects">Projects</a></li>
+				<li><a href="#gallery">Gallery</a></li>
 			</ul>
 		</nav>
 		<button id="menu-icon">☰</button>
@@ -33,12 +36,34 @@
 			<h1>Resume</h1>
 		</section>
 		<section id="projects">
-			<h1></h1>
+			<h1>Projects</h1>
+		</section>
+		<section id="gallery">
+			<div class="container">
+				<h1>Gallery</h1>
+				<div class="row">
+					<div class="col-xs-6 col-md-4 col-lg-3">
+						<a data-fancybox="gallery" href="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg">
+							<img class="img-responsive" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-6 col-md-4 col-lg-3">
+						<a data-fancybox="gallery" href="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg">
+							<img class="img-responsive" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg" alt="">
+						</a>
+					</div>
+					<div class="col-xs-6 col-md-4 col-lg-3">
+						<a data-fancybox="gallery" href="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg">
+							<img class="img-responsive" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
 		</section>
 
-		<div id="box">
+<!-- 		<div id="box">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ab, aperiam. Recusandae aliquid quia perferendis, placeat dolorum adipisci laborum, voluptatum vel voluptate consectetur fuga aliquam facilis officia sequi. Hic, minima?
-		</div>
+		</div> -->
 
 		<!-- Always load jQuery first -->
 		<script
@@ -47,6 +72,8 @@
   crossorigin="anonymous"></script>
 		<!-- Then, any JS libraries -->
 		<script src="js/jquery.nav.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 		<!-- Lastly, your JS -->
 		<script src="js/main.js"></script>
 	</body>
