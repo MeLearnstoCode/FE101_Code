@@ -1,0 +1,7 @@
+.gallery-img {
+	display: none;
+}
+
+.gallery-img:first-of-type {
+	display: block;
+}
