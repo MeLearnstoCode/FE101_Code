@@ -1,1 +1,126 @@
-https://codepen.io/nicolethenerd/pen/LjzMRe
+
+
+// // // Arrays
+// // const favoriteColors = ['pink', 'purple', 'green'];
+
+// // console.log(favoriteColors[0]);
+// // console.log(favoriteColors[1]);
+// // console.log(favoriteColors[2]);
+// // console.log(favoriteColors[3]); // undefined
+// // console.log(favoriteColors.length);
+
+// // const myFavoriteThings = ['Broccoli', 60481, 'Love Actually', true];
+
+// const students = [{
+//   firstName: 'Evan',
+//   lastName: 'Emenegger',
+// },
+// {
+//   firstName: 'Chris',
+//   lastName: 'C',
+// },
+// {
+//   firstName: 'Victoria',
+//   lastName: 'E',
+// },
+// {
+//   firstName: 'Mike',
+//   lastName: 'B',
+// }];
+
+// for (let i = 0; i < students.length; i++) {
+//   const currentStudent = students[i];
+//   console.log("Hello " + currentStudent.firstName + " " + currentStudent.lastName);
+// }
+
+// // // const num = prompt("Pick a number");
+// // // console.log(favoriteColors[num]);
+
+// // favoriteColors[0] = "blue";
+// // favoriteColors.push("teal");
+
+const rainbowColors = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet'];
+// for (let i = 0; i < rainbowColors.length; i++) {
+//   console.log(rainbowColors[i]);
+// }
+
+// const subjects = ['math', 'english', 'social studies', 'science'];
+// for (let i = 0; i < subjects.length; i++) {
+//   const currentSubject = subjects[i];
+//   console.log(i + " " + currentSubject);
+// }
+
+// // Object
+// const aboutMe = {
+//   name: 'Nicole',
+//   age: 28,
+//   isAwesome: true,
+// };
+// console.log(aboutMe.name);
+
+// for (let prop in aboutMe) {
+//   console.log(prop + ": " + aboutMe[prop]);
+// }
+
+
+// const favoriteFoods = ["popcorn", "pizza", "popsicles"];
+// for (let i = 0; i < 100; i++) {
+//   let suffix;
+//   const displayNum = i + 1;
+//   if (displayNum % 100 >= 11 && displayNum % 100 < 14) {
+//     suffix = 'th';
+//   } else if (displayNum % 10 === 1) {
+//     suffix = 'st';
+//   } else if (displayNum % 10 === 2) {
+//     suffix = 'nd';
+//   } else if (displayNum % 10 === 3) {
+//     suffix = 'rd';
+//   } else {
+//     suffix = 'th';
+//   }
+  
+//   console.log('My ' + displayNum + suffix + ' favorite food is ' + favoriteFoods[i]);
+// }
+
+function first(array) {
+  return array[0];
+}
+
+first(['red', 'orange', 'yellow']);
+first(rainbowColors);
+
+function last(array) {
+  return array[array.length - 1];
+}
+last(['red', 'orange', 'yellow']);
+
+function longestString(strings) {
+  let longest = '';
+  for (let i = 0; i < strings.length; i++) {
+    // Is this current string longer than the longest
+    // so far?
+    if (strings[i].length > longest.length) {
+      longest = strings[i];
+    }
+  }
+  return longest;
+}
+
+longestString(['red', 'orange', 'teal']);
+longestString(['red', 'orange', 'teal', 'aldkfjlaksdjfl;kadfj']);
+longestString([]);
+longestString(['red']);
+
+function sum(numbers) {
+  let total = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    total = total + numbers[i];
+  }
+  return total;
+}
+
+sum([123, 23, 9]);
+
+
+
+// https://codepen.io/nicolethenerd/pen/LjzMRe
