@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+}
+
+/* Nav */
+
+nav {
+	background: white;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+nav a {
+	font-family: sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.current {
+	font-weight: 600;
+}
+
+/* Sections */
+
+#summer {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/summer.jpg);
+}
+
+#winter {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+#autumn {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/autumn.jpg);
+}
+
+#spring {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/spring.jpg);
+}
+
+section {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
