@@ -1,0 +1,2 @@
+pwd - print working directory
+(where am i? what folder am i in?)
