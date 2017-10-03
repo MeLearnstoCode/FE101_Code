@@ -1,0 +1,132 @@
+/* CSS Resets */
+
+body {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+}
+
+/* Nav */
+
+nav {
+	background: white;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+nav a {
+	font-family: sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.current a {
+	color: red;
+	font-size: 14px;
+}
+
+nav a {
+	transition: all 2s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+#summer {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/summer.jpg);
+}
+
+#winter {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/winter.jpg);
+}
+
+#autumn {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/autumn.jpg);
+}
+
+#spring {
+	background-image: url(http://markdalgleish.com/projects/stellar.js/demos/images/spring.jpg);
+}
+
+section {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 600px;
+}
+
+#menu {
+	top: 0;
+	right: 0;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	display: none;
+	position: absolute;
+}
+
+#gallery {
+	display: none;
+}
+
+/* Grid */
+
+#example1 div {
+	border: 1px solid black;
+	min-height: 200px;
+}
+
+.thumbnail {
+	max-width: 100%;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	margin: 10px;
+}
+
+#box1 {
+	transition: all 3s linear;
+}
+
+#box2 {
+	transition: all 3s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+.box:hover {
+	width: 300px;
+}
+
+/* Responsive Nav */
+
+@media (max-width: 768px) {
+	/* Mobile changes go here */
+
+	nav ul {
+		display: none;
+	}
+
+	nav li {
+		display: block;
+	}
+
+	#menu {
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
