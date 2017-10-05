@@ -1,0 +1,37 @@
+git init
+run once, make this folder use git
+
+git status
+check on the status of this repo
+
+git add -A
+stage all the files so you can commit them
+
+git commit -m "Put a description of your change here"
+
+git push
+send code to github
+
+git log
+See a list of your commits
+
+git checkout _________
+Travel back in time to a previous commit (put the id in the blank - copy it from git log)
+
+git reset --hard master
+Take you to your most recent commit
+
+Repeat these steps over and over again:
+Make a change
+git add -A
+git status
+git commit -m "description here"
+git status
+git push
+git status
+
+
+x.toLocaleString()
+
+
+
