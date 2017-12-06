@@ -1,0 +1,14 @@
+Tools > Command Pallette > Install Package
+
+SublimeLinter
+
+SublimeLinter-contrib-eslint
+
+1. Install node
+
+2. sudo npm install -g eslint
+
+3. Save this file as https://github.com/Laboratoria/js-style-guide/blob/master/.eslintrc
+.eslintrc in your project
+
+4. Restart Sublime!!!!
