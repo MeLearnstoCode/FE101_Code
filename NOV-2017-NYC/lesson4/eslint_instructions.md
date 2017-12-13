@@ -11,7 +11,7 @@
 3. On the terminal, run 
 `sudo npm install -g eslint`
 
-4. Save this file as https://github.com/Laboratoria/js-style-guide/blob/master/.eslintrc
-.eslintrc in your project
+4. Save [this file](https://github.com/Laboratoria/js-style-guide/blob/master/.eslintrc) as
+`.eslintrc` in your project
 
 5. Restart Sublime!!!!
