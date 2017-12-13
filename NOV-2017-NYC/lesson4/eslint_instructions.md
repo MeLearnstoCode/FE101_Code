@@ -1,8 +1,10 @@
 # Installing ESLint
 
-1. In Sublime, go to Tools > Command Pallette > Install Package - install the package SublimeLinter
+## Sublime
 
-3. Tools > Command Pallette > Install Package - install the package SublimeLinter-contrib-eslint
+1. Go to Tools > Command Pallette > Install Package - install the package SublimeLinter
+
+3. Go to Tools > Command Pallette > Install Package - install the package SublimeLinter-contrib-eslint
 
 2. Install node from https://nodejs.org/en/ if you don't already have it
 
