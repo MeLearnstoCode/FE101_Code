@@ -15,3 +15,5 @@
 `.eslintrc` in your project
 
 5. Restart Sublime!!!!
+
+Do step 5 every time you start a new project.
