@@ -1,0 +1,9 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+
+.bouncing {
+  animation: bounce 1s infinite alternate;
+}
